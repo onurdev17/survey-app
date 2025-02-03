@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+*.log.*
+
+# npm package-lock.json or yarn.lock (you can ignore if you're using yarn or npm)
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build directory (for React app)
+build/
+dist/
+
+# Dependency directories
+bower_components/
+
+# VSCode settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# IDEs
+.idea/
+
+# Temporary files
+*.swp
+*.swo
