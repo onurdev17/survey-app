@@ -59,9 +59,6 @@ app.use(authMiddleware);
 app.use(express.static(path.join(__dirname, "public")));
 app.use(existRoutes);
 
-/* ROUTES */
-
-// home
 app.get("/", (_req: Request, res: Response) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
